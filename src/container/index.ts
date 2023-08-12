@@ -1,4 +1,3 @@
-export { default as Button } from "./button";
-export { default as Input } from "./input";
-export { default as Checkbox } from "./chexbox";
-export { default as Loader } from "./loader";
+export { default as Header } from "./header";
+export { default as Main } from "./home/main";
+export { default as Service } from "./home/service";

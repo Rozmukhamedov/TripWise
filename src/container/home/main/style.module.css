@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main::before {
+    content: "";
+    position: absolute;
+    background: url("../../../assets/main/Decore.png") no-repeat;
+    background-size: 100% 200px;
+    top: 0;
+    right: 0;
+}
+
+.main .texts h5 {
+    font-family: "Poppins";
+    color: #DF6951;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.main .texts h3 {
+    color: var(--1st, #181E4B);
+    font-family: Volkhov;
+    font-size: 84px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px;
+    /* 105.952% */
+    letter-spacing: -3.36px;
+    margin: 24px 0 30px 0;
+}
+
+.main .texts p {
+    color: #5E6282;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.main .texts .btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main .texts .btns button {
+    border-radius: 10px;
+    background: #F2994A;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 19px 26px;
+    margin-top: 40px;
+}

@@ -1,0 +1,28 @@
+.header {
+    margin: 20px 0;
+}
+
+.header .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul li {
+    margin: 0 20px;
+}
+
+.header ul li a {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

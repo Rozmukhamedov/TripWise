@@ -1,0 +1,42 @@
+.service {
+    position: relative;
+}
+
+.service h5 {
+    color: var(--textclr, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.service h2 {
+    color: var(--3rd, #14183E);
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.service .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service .flex .card {
+    text-align: center;
+    padding: 42px 45px;
+    border-radius: 36px;
+    background: var(--white, #FFF);
+}
+
+.service .flex .card img{
+    margin: 0 auto;
+}
