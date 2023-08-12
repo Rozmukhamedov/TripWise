@@ -1,0 +1,67 @@
+.input {
+  min-width: 280px;
+  height: 40px;
+  background: #F2F2F2;
+  border-radius: 10px;
+  padding-left: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .input {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .input::placeholder {
+    font-size: 14px;
+  }
+
+  .icon {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+  .input {
+    width: 100%;
+    min-width: auto;
+    font-weight: 500;
+    font-size: 13.9429px;
+    line-height: 21px;
+  }
+
+  .input::placeholder {
+    font-weight: 500;
+    font-size: 13.9429px;
+    line-height: 21px;
+    color: #999999
+  }
+}
