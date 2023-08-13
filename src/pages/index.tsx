@@ -1,11 +1,13 @@
 import Image from "next/image";
-import { Main, Service } from "@/container";
+import { Feedback, Main, Sale, Service } from "@/container";
 
 export default function Home() {
   return (
     <>
       <Main />
       <Service />
+      <Sale />
+      <Feedback />
     </>
   );
 }
