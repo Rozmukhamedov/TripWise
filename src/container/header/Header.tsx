@@ -6,8 +6,8 @@ import { Container } from "@mantine/core";
 
 function Header() {
   return (
-    <Container size="xl">
-      <div className={classes.header}>
+    <div className={classes.header}>
+      <Container size="xl">
         <div className={classes.flex}>
           <Image src={LogoImg} alt="trcik wise" />
           <ul>
@@ -23,10 +23,13 @@ function Header() {
             <li>
               <Link href="#">Bookings</Link>
             </li>
+            <li className={classes.btn}>
+              <a href="tel:+998777774033">+998777774033</a>
+            </li>
           </ul>
         </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }
 

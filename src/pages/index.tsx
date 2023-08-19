@@ -1,14 +1,24 @@
 import Image from "next/image";
-import { Feedback, Main, Partners, Sale, Service } from "@/container";
+import {
+  Feedback,
+  Footer,
+  Header,
+  Main,
+  Partners,
+  Sale,
+  Service,
+} from "@/container";
 
 export default function Home() {
   return (
     <>
+      <Header />
       <Main />
       <Service />
       <Sale />
       <Partners />
       <Feedback />
+      <Footer />
     </>
   );
 }

@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.header img {
+    width: 120px;
+    height: auto;
+}
+
 .header ul {
     display: flex;
     flex-direction: row;
@@ -25,4 +30,17 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.header .btn {
+    border-radius: 9.024px;
+    background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 15.341px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 20px;
 }

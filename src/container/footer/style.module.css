@@ -3,6 +3,11 @@
     padding-top: 70px;
 }
 
+.footer img{
+    width: 120px;
+    height: auto;
+}
+
 .footer .first p {
     color: var(--textclr, #5E6282);
     font-family: "Poppins";

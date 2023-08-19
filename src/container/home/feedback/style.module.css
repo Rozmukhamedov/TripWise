@@ -9,6 +9,7 @@
     padding: 70px 100px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .feedback img {
@@ -38,6 +39,8 @@
 
 .feedback .form input {
     margin-right: 20px;
+    padding: 10px 10px;
+    height: 42px;
 }
 
 .feedback .form button {
@@ -50,5 +53,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 8px 20px;
+    padding: 10px 20px;
 }
