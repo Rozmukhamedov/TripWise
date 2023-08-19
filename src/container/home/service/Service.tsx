@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Image1 from "@/assets/service/Group 48.svg";
-import Image2 from "@/assets/service/Group 49.svg";
-import Image3 from "@/assets/service/Group 50.svg";
-import Image4 from "@/assets/service/Group 51.svg";
+import Image1 from "@/assets/serviсe/Group 48.svg";
+import Image2 from "@/assets/serviсe/Group 49.svg";
+import Image3 from "@/assets/serviсe/Group 50.svg";
+import Image4 from "@/assets/serviсe/Group 51.svg";
 import classes from "./style.module.css";
 import { Container } from "@mantine/core";
 
