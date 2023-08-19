@@ -6,8 +6,8 @@ import { Container } from "@mantine/core";
 
 function Header() {
   return (
-    <div className={classes.header}>
-      <Container size="xl">
+    <Container size="xl">
+      <div className={classes.header}>
         <div className={classes.flex}>
           <Image src={LogoImg} alt="trcik wise" />
           <ul>
@@ -25,8 +25,8 @@ function Header() {
             </li>
           </ul>
         </div>
-      </Container>
-    </div>
+      </div>
+    </Container>
   );
 }
 

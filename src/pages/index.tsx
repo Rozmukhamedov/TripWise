@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Feedback, Main, Sale, Service } from "@/container";
+import { Feedback, Main, Partners, Sale, Service } from "@/container";
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <Main />
       <Service />
       <Sale />
+      <Partners />
       <Feedback />
     </>
   );

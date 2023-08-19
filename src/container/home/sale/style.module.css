@@ -1,5 +1,6 @@
 .service {
     position: relative;
+    padding: 80px;
 }
 
 .service h5 {

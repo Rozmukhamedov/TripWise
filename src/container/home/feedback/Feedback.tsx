@@ -3,6 +3,7 @@ import classes from "./style.module.css";
 import Image1 from "@/assets/feedback/image.png";
 import Image from "next/image";
 import { Container } from "@mantine/core";
+import { Button, Input } from "@/components";
 
 function Feedback() {
   return (
@@ -13,6 +14,22 @@ function Feedback() {
           Subscribe to get information, latest news and other <br />
           interesting offers about Jadoo
         </h4>
+
+        <form className={classes.form}>
+          <Input
+            type="text"
+            name="name"
+            onChange={(e) => console.log(e)}
+            placeholder={"Your Name"}
+          />
+          <Input
+            type="email"
+            name="email"
+            onChange={(e) => console.log(e)}
+            placeholder={"Your Email"}
+          />
+          <Button type="submit">Subscribe</Button>
+        </form>
       </div>
     </Container>
   );

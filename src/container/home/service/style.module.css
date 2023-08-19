@@ -31,12 +31,23 @@
 }
 
 .service .flex .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     text-align: center;
     padding: 42px 45px;
     border-radius: 36px;
     background: var(--white, #FFF);
+    height: 300px;
 }
 
 .service .flex .card img{
-    margin: 0 auto;
+    margin: 25px 0;
+}
+
+.service .flex .card:last-child img{
+    width: 135px;
+    height: auto;
+    margin: 0;
 }
