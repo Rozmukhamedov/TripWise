@@ -9,10 +9,10 @@ import { Container } from "@mantine/core";
 
 function Service() {
   return (
-    <div className={classes.service}>
+    <div className={classes.service} id="service">
       <Container size="xl">
-        <h5>CATEGORY</h5>
-        <h2>We Offer Best Services</h2>
+        <h5>КАТЕГОРИЯ</h5>
+        <h2>Мы предлагаем лучшие услуги</h2>
 
         <div className={classes.flex}>
           <div className={classes.card}>

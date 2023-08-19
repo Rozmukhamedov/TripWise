@@ -6,7 +6,7 @@
 .service h5 {
     color: var(--textclr, #5E6282);
     text-align: center;
-    font-family: "Poppins";
+    font-family: "Rubik";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -16,23 +16,16 @@
 .service h2 {
     color: var(--3rd, #14183E);
     text-align: center;
-    font-family: Volkhov;
+    font-family: "Rubik";
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
-.service .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.service .flex .card {
+.service .card {
     text-align: center;
     border-radius: 36px;
     background: #FFF;
@@ -41,42 +34,46 @@
     margin: 0 15px;
 }
 
-.service .flex .card img {
+.service .card img {
     width: 100%;
-    height: 100%;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
 }
 
-.service .flex .card .box {
+.service .card .box {
     width: 100%;
     height: auto;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #FFF;
-    border-bottom-left-radius: 21px;
-    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     padding: 30px 26px;
 }
 
-.service .flex .card .box .text {
+.service .card .box .text {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     color: var(--textclr, #5E6282);
-    font-family: "Poppins";
+    font-family: "Rubik";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 124.5%;
 }
 
-.service .flex .card .box h6 {
+.service .card .box .text h4 {
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.service .card .box h6 {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: var(--textclr, #5E6282);
-    font-family: "Poppins";
+    font-family: "Rubik";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -84,10 +81,10 @@
     margin-top: 26px;
 }
 
-.service .flex .card .box h6 img {
+.service .card .box h6 img {
     width: 20px;
     height: 20px;
     margin: 0;
     display: block;
-    margin-right: 14px;
+    margin-right: 10px;
 }

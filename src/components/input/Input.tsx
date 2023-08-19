@@ -23,7 +23,7 @@ const Input: FC<InputProps> = ({
   className,
   ...props
 }) => (
-  <div className={className} style={{ position: "relative", height: "40px" }}>
+  <div className={className} style={{ position: "relative" }}>
     <input
       type={type}
       value={value}

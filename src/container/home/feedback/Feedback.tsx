@@ -8,7 +8,7 @@ import { Button, Input } from "@/components";
 function Feedback() {
   return (
     <Container size={"xl"}>
-      <div className={classes.feedback}>
+      <div className={classes.feedback} id="feedback">
         <Image src={Image1} alt="image" />
         <h4>
           Subscribe to get information, latest news and other <br />
@@ -28,7 +28,7 @@ function Feedback() {
             onChange={(e) => console.log(e)}
             placeholder={"Your Email"}
           />
-          <Button type="submit">Subscribe</Button>
+          <Button type="submit">Отправить</Button>
         </form>
       </div>
     </Container>

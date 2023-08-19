@@ -30,6 +30,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    font-family: "Rubik";
 }
 
 .header .btn {
@@ -37,7 +38,7 @@
     background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
     color: var(--white, #FFF);
     text-align: center;
-    font-family: "Poppins";
+    font-family: "Rubik";
     font-size: 15.341px;
     font-style: normal;
     font-weight: 400;

@@ -10,11 +10,11 @@ function Main() {
     <Container size={"xl"}>
       <div className={`${classes.main} container mx-auto px-5`}>
         <div className={classes.texts}>
-          <h5>Best Destinations around the world</h5>
+          <h5>ЛУЧШИЕ НАПРАВЛЕНИЯ ПО ВСЕМУ МИРУ</h5>
           <h3>
-            Travel, enjoy <br />
-            and live a new <br />
-            and full life
+            Путешествуйте, наслаждайтесь <br />
+            и жить по-новому
+            <br />и полная жизнь
           </h3>
           <p>
             Built Wicket longer admire do barton vanity itself do in it. <br />
@@ -22,10 +22,12 @@ function Main() {
             sell they west hard for the.
           </p>
           <div className={classes.btns}>
-            <Button>Find out more</Button>
+            <Button type="button">
+              <a href="tel:+998777774033">Узнать больше</a>
+            </Button>
           </div>
         </div>
-        <Image src={UserImage} alt="main" width={700} height={600}/>
+        <Image src={UserImage} alt="main" width={700} height={600} />
       </div>
     </Container>
   );
