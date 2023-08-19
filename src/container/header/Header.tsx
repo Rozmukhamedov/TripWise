@@ -12,13 +12,13 @@ function Header() {
           <Image src={LogoImg} alt="trcik wise" />
           <ul>
             <li>
-              <Link href="#destination">Туры</Link>
+              <a href="#destination">Туры</a>
             </li>
             <li>
-              <Link href="#service">Услуги</Link>
+              <a href="#service">Услуги</a>
             </li>
             <li>
-              <Link href="#feedback">Обратная связь</Link>
+              <a href="#feedback">Обратная связь</a>
             </li>
             <li className={classes.btn}>
               <a href="tel:+998777774033">+998777774033</a>

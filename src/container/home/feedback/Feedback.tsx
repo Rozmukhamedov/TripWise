@@ -1,11 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from "./style.module.css";
 import Image1 from "@/assets/feedback/image.png";
 import Image from "next/image";
+import emailjs from "@emailjs/browser";
 import { Container } from "@mantine/core";
 import { Button, Input } from "@/components";
 
 function Feedback() {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+
+  const onChange = (e: any) => {
+    e.preventDefault();
+
+    console.log(name);
+
+    let templateParams = {
+      name: name,
+      email: email,
+    };
+    console.log(name);
+    emailjs
+      .send(
+        "service_4ewopve",
+        "template_7pqos4u",
+        templateParams,
+        "4D-MQCb1g9eE3gkgb"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (error) => {
+          console.log("FAILED...", error);
+        }
+      );
+  };
   return (
     <Container size={"xl"}>
       <div className={classes.feedback} id="feedback">
@@ -15,17 +45,17 @@ function Feedback() {
           interesting offers about Jadoo
         </h4>
 
-        <form className={classes.form}>
+        <form className={classes.form} onSubmit={onChange}>
           <Input
             type="text"
             name="name"
-            onChange={(e) => console.log(e)}
+            onChange={setName}
             placeholder={"Your Name"}
           />
           <Input
             type="email"
             name="email"
-            onChange={(e) => console.log(e)}
+            onChange={setEmail}
             placeholder={"Your Email"}
           />
           <Button type="submit">Отправить</Button>

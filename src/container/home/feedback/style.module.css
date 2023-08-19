@@ -22,7 +22,7 @@
 .feedback h4 {
     color: var(--textclr, #5E6282);
     text-align: center;
-    font-family: "Poppins";
+    font-family: "Rubik";
     font-size: 29.779px;
     font-style: normal;
     font-weight: 600;
@@ -48,7 +48,7 @@
     background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
     color: var(--white, #FFF);
     text-align: center;
-    font-family: "Poppins";
+    font-family: "Rubik";
     font-size: 15.341px;
     font-style: normal;
     font-weight: 400;
